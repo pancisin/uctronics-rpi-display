@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  uctronics-rpi-display:
+    image: pancisin/uctronics-rpi-display:latest
+    container_name: uctronics-rpi-display
+    privileged: true
+    restart: unless-stopped
